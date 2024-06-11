@@ -1,0 +1,13 @@
+org.onlyoffice.desktopeditors
+com.brave.Browser
+com.github.IsmaelMartinez.teams_for_linux
+com.jgraph.drawio.desktop
+io.github.nokse22.asciidraw
+com.github.tchx84.Flatseal
+com.skype.Client
+com.spotify.Client
+com.anydesk.Anydesk
+org.telegram.desktop
+io.github.mimbrero.WhatsAppDesktop
+com.usebottles.bottles
+org.gnome.Firmware
