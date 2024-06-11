@@ -1,6 +1,6 @@
-### Fonts
-
 ![screenshot](clean-print.jpg)
+
+## About fonts:
 
 I'm using for this configuration:
 
