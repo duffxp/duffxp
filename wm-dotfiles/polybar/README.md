@@ -1,5 +1,7 @@
 ### Fonts
 
+![screenshot](clean-print.jpg)
+
 I'm using for this configuration:
 
 - **FiraCode**
