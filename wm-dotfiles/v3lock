@@ -1,0 +1,16 @@
+#!/bin/bash
+
+# # # # # # # # # # # # # #
+# i3lock with blur effect #
+# # # # # # # # # # # # # # 
+
+# Advice: you need to install
+# `scrot` package!
+
+scrot -z /tmp/current.png
+convert /tmp/current.png -blur 0x5 /tmp/blur.png
+
+i3lock -i /tmp/blur.png
+
+rm /tmp/current.png
+rm /tmp/blur.png
