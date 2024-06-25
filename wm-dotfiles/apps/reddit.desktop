@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Reddit
+Exec=/usr/bin/brave-browser --app='https://www.reddit.com/'
+Icon=/home/duffxp/.local/share/applications/icons/reddit.png
+Type=Application

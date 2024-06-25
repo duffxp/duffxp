@@ -1,0 +1,5 @@
+[Desktop Entry]
+Name=Calendar
+Exec=/usr/bin/brave-browser --app='https://calendar.google.com/'
+Icon=/home/duffxp/.local/share/applications/icons/calendar.png
+Type=Application
