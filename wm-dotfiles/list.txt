@@ -35,7 +35,6 @@ dunst
 vim
 brightnessctl
 thefuck
-neofetch
 nemo
 kitty
 fd-find
@@ -45,3 +44,4 @@ wireshark-gtk
 virt-manager
 mitmproxy
 unzip
+feh
