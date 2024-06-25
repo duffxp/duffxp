@@ -8,12 +8,12 @@ font pango:fonts-jetbrains-mono 12
 exec --no-startup-id dex --autostart --environment i3
 exec --no-startup-id xss-lock --transfer-sleep lock -- /usr/bin/v3lock
 exec --no-startup-id nm-applet
+exec --no-startup-id xset s off -dpms
 exec --no-startup-id picom
 exec --no-startup-id xrdb -merge $HOME/.Xresources
 exec --no-startup-id polybar
 exec --no-startup-id ~/.screenlayout/default.sh
-exec --no-startup-id nitrogen --restore
-exec --no-startup-id xsettingsd
+exec --no-startup-id feh --bg-scale /usr/share/images/nature.jpg
 
 # +---+ General Configuration +---+
 gaps inner 15
@@ -24,7 +24,7 @@ title_align center
 # +---+ Keys Control +---+
 bindsym $mod+Return exec kitty
 bindsym $mod+q kill
-bindsym $mod+d exec --no-startup-id rofi -theme ~/.config/rofi/config.rasi -modi drun -show drun
+bindsym $mod+d exec --no-startup-id rofi -c ~/.config/rofi/config.rasi -modi drun -show drun
 bindsym $mod+Shift+c reload
 bindsym $mod+Shift+r restart
 bindsym Ctrl+$mod+l  exec /bin/v3lock
