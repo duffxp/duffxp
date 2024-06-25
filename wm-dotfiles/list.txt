@@ -45,3 +45,4 @@ virt-manager
 mitmproxy
 unzip
 feh
+fonts-noto-color-emoji
