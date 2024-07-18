@@ -13,7 +13,12 @@ exec --no-startup-id picom
 exec --no-startup-id xrdb -merge $HOME/.Xresources
 exec --no-startup-id polybar
 exec --no-startup-id ~/.screenlayout/default.sh
-exec --no-startup-id feh --bg-scale /usr/share/images/nature.jpg
+exec --no-startup-id feh --bg-scale /usr/share/images/darksouls.png
+
+# +---+ Windows +---+
+#for_window [instance="chatgpt.com"] floating enable, resize set 1000 800
+for_window [instance="crx_nngceckbapebfimnlniiiahkandclblb"] floating enable
+for_window [class="gnome-calculator"] floating enable
 
 # +---+ General Configuration +---+
 gaps inner 15
@@ -22,7 +27,8 @@ default_floating_border none
 title_align center
 
 # +---+ Keys Control +---+
-bindsym $mod+Return exec kitty
+bindsym $mod+Return exec alacritty
+#bindsym $mod+Return exec kitty
 bindsym $mod+q kill
 bindsym $mod+d exec --no-startup-id rofi -c ~/.config/rofi/config.rasi -modi drun -show drun
 bindsym $mod+Shift+c reload
@@ -120,11 +126,6 @@ mode "resize" {
 
 bindsym $mod+r mode "resize"
 
-
-
-
-
-
 # +---+ Resize Windows +---+
 #bindsym $mod+Control+Left resize grow width 10 px or 10 ppt
 #bindsym $mod+Control+Down resize shrink height 10 px or 10 ppt
@@ -133,12 +134,12 @@ bindsym $mod+r mode "resize"
 
 # +---+ Screenshots +---+
 bindsym Print exec --no-startup-id maim "/home/$USER/Pictures/$(date)"
-bindsym $mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date)"
+bindsym $mod+Print exec --no-startup-id maim -u --format png --window $(xdotool getactivewindow) "/home/$USER/Pictures/$(date)"
 bindsym Shift+Print exec --no-startup-id maim --select "/home/$USER/Pictures/$(date)"
 
 # +---+ Clipboard +---+
 bindsym Ctrl+Print exec --no-startup-id maim | xclip -selection clipboard -t image/png
-bindsym Ctrl+$mod+Print exec --no-startup-id maim --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
+bindsym Ctrl+$mod+Print exec --no-startup-id maim -u --window $(xdotool getactivewindow) | xclip -selection clipboard -t image/png
 bindsym Ctrl+Shift+Print exec --no-startup-id maim --select | xclip -selection clipboard -t image/png
 
 # +---+ Volume with Pavucontrol +---+
