@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo 'alias ipb="ip -br -c a"' >> $HOME/.bashrc
+echo 'alias ll="ls -lh"' >> $HOME/.bashrc
+echo 'alias la="ls -lha"' >> $HOME/.bashrc
+echo 'alias ffmpeg="ffmpeg -hide_banner"' >> $HOME/.bashrc
+echo 'alias ffprobe="ffprobe -hide_banner"' >> $HOME/.bashrc
+
+. $HOME/.bashrc
