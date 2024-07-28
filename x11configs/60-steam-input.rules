@@ -1,3 +1,8 @@
+# # # # # # # # # # # #
+# Put this file in:   #
+# /etc/udev/rules.d/  #
+# # # # # # # # # # # # 
+
 # Valve USB devices
 SUBSYSTEM=="usb", ATTRS{idVendor}=="28de", MODE="0660", TAG+="uaccess"
 
