@@ -1,3 +1,7 @@
+## Hey! This repository is old.
+## The new version will be updated in: [Link Text](https://github.com/duffxp/i3wm)
+
+
 ![screenshot](used-print.jpg)
 
 ### My Desktop

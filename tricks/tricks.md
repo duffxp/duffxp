@@ -39,3 +39,5 @@ sudo apt purge libkf5wallet*
 1. Create a file in `$HOME` called `.Xresources`
 2. Add the line: `Xft.dpi: 120`
 - Some options are: `96, 120, 141, 144, 168, 192`
+
+
