@@ -6,3 +6,7 @@
 |  '--'  ||  `--'  | |  |     |  |     /  .  \  |  |      
 |_______/  \______/  |__|     |__|    /__/ \__\ | _|      
 ```
+
+<div id="header" align="center">
+  <img src="[https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExamp5MWhuazJub3l5cng1Y2RlN2RjYTRtdnpoNWZoMHIzMDJsNjVzZiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/du3J3cXyzhj75IOgvA/giphy.gif)" width="100"/>
+</div>
