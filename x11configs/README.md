@@ -1,5 +1,2 @@
-### **Important!**
-
-Please, ***don't copy*** these files without the necessary knowledge.
-
-These files are some tricks to manage touchpad and others in `X11`.
+🇧🇷 (PT-BR) **Não** copie ou use esses arquivos sem ter plena consciência do que está fazendo. Isso pode, realmente, te dar trabalho.
+🇺🇸 (EN) **Do not** copy or use these files without being fully aware of what you are doing. It can really get you into trouble.
