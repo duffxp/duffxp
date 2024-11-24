@@ -1,9 +1,0 @@
-# +---+ Enjoy! :) +---+
-
-alias ls="lsd"
-alias ll="ls -lh"
-alias la="ls -lha"
-alias cat="batcat"
-alias pcat="batcat -p"
-
-alias figlet="figlet -f big"
