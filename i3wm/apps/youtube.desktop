@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=YouTube
-Exec=/usr/bin/brave-browser --app='https://www.youtube.com/'
-Icon=/home/duffxp/.local/share/applications/icons/youtube.png
-Type=Application

@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=WhatsApp
-Exec=/usr/bin/brave-browser --app='https://web.whatsapp.com/'
-Icon=/home/duffxp/.local/share/applications/icons/whatsapp.png
-Type=Application

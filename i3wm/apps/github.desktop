@@ -1,5 +1,0 @@
-[Desktop Entry]
-Name=GitHub
-Exec=/usr/bin/brave-browser --app='https://github.com/'
-Icon=/home/duffxp/.local/share/applications/icons/github.png
-Type=Application

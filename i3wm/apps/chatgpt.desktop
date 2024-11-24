@@ -1,6 +1,0 @@
-[Desktop Entry]
-Name=ChatGPT
-Exec=/usr/bin/brave-browser --app='https://chatgpt.com/'
-Icon=/home/duffxp/.local/share/applications/icons/chatgpt.png
-Type=Application
-
